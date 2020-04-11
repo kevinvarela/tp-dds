@@ -1,4 +1,4 @@
-package org.example;
+package org.gesoc;
 
 import org.gesoc.excepciones.ItemException;
 import org.gesoc.item.Item;

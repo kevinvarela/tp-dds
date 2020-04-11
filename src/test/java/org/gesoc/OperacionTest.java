@@ -1,6 +1,5 @@
-package org.example;
+package org.gesoc;
 
-import org.gesoc.Operacion;
 import org.gesoc.excepciones.OperacionException;
 import org.gesoc.item.Item;
 import org.gesoc.item.TipoItem;

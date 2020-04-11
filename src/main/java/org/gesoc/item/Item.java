@@ -8,11 +8,10 @@ public class Item {
     private TipoItem tipoItem;
 
     public Item(Double precio, TipoItem tipoItem) {
-        this.validarPrecio(precio);
         if (tipoItem == null) {
             throw new ItemException("El Item debe tener un TipoItem valido");
         }
-        this.precio = precio;
+        this.setPrecio(precio);
         this.tipoItem = tipoItem;
     }
 
